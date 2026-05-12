@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
 
-double a;
-  int b;
+float a;
+int b;
   
-  scanf("%lf", &a);
-  scanf("%d", b);
-  printf("%.*f\n", b, a);
+  scanf("%f", &a);
+  scanf("%d", &b);
+  printf("%.*f", b, a);
  
     return 0;
 }
